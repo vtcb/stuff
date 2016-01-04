@@ -1,0 +1,12 @@
+Tetris
+By: vtcb
+
+Compile: g++ tetris.cpp tetrimino.cpp -lcurses
+
+Move Piece:    Left Arrow; Right Arrow; Down Arrow
+Rotate Piece:  Up Arrow
+Drop Piece:    Space Bar
+Quit Game:     Q
+Ghost Piece:   G
+
+There are a couple of special pieces, but they are not enabled.
