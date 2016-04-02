@@ -19,10 +19,10 @@ else
 	cd ~/Downloads
 	
 	echo "Downloading..."
-	#wget $subl_link
+	wget $subl_link
 
 	echo "Extracting..."
-	#tar jxf $subl_name
+	tar jxf $subl_name
 	
 	echo "$subl" >> "$vtcb_setup"
 	echo "alias subl=~/Downloads/sublime_text_3/sublime_text" >> ~/.bash_aliases
