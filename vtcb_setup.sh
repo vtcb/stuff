@@ -26,4 +26,5 @@ else
 	
 	echo "$subl" >> "$vtcb_setup"
 	echo "alias subl=~/Downloads/sublime_text_3/sublime_text" >> ~/.bash_aliases
+	alias subl=~/Downloads/sublime_text_3/sublime_text
 fi
